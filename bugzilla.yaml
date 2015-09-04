@@ -1,18 +1,29 @@
-  store:
-  title: Third Party Apps for Application Lifecycle Service Development Platform
-  contact: Application Lifecycle Service Development Platform Support 
+store:
+  title: Helion 3rd Party Apps
+  contact: Stackato Support <stackato-support@activestate.com>
   icon: http://static.als.hpcloud.com/hp.ico
 
 apps:
-- name: Bugzilla
-  id: bugzilla
-  desc: A bug tracking system for individuals or groups of developers
-  framework: perl
-  runtime: perl514
-  services: mysql
+- name: Ace Editor2
+  id: ace2
+  desc: Ace is a standalone code editor written in JavaScript, used by Cloud9 IDE.
+  framework: node
+  runtime: node
   license: MPL
-  commit: master
-  src: https://github.com/Helion-Apps/bugzilla.git
-  info: https://github.com/Helion-Apps/bugzilla.git#readme
-  icon: https://get.helion.com/store/icon/bugzilla.png
-  mem: 256
+  commit: stackato-3.4
+  src: https://github.com/Stackato-Apps/ace.git
+  info: https://github.com/Stackato-Apps/ace/tree/stackato-3.4#readme
+  icon: default
+  mem: 128
+
+- name: Bottle Currency Converter2
+  id: bottle-currency2
+  desc: Currency converter using Python bottle framework
+  framework: python
+  runtime: python27
+  services: redis
+  commit: stackato-3.4
+  src: https://github.com/Stackato-Apps/bottle-currency.git
+  info: https://github.com/Stackato-Apps/bottle-currency/tree/stackato-3.4#readme
+  icon: https://get.stackato.com/store/icon/currency.png
+  mem: 128

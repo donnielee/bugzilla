@@ -1,0 +1,18 @@
+  store:
+  title: Third Party Apps for Application Lifecycle Service Development Platform
+  contact: Application Lifecycle Service Development Platform Support 
+  icon: http://static.als.hpcloud.com/hp.ico
+
+apps:
+- name: Bugzilla
+  id: bugzilla
+  desc: A bug tracking system for individuals or groups of developers
+  framework: perl
+  runtime: perl514
+  services: mysql
+  license: MPL
+  commit: master
+  src: https://github.com/Helion-Apps/bugzilla.git
+  info: https://github.com/Helion-Apps/bugzilla.git#readme
+  icon: https://get.helion.com/store/icon/bugzilla.png
+  mem: 256

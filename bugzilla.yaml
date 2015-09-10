@@ -15,6 +15,8 @@ apps:
     CATALYST_HOME: $HOME
   src: https://github.com/Stackato-Apps/catalyst-tut2.git
   info: https://github.com/Stackato-Apps/catalyst-tut2#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
 - name: Catalyst Tutorial 3
   id: catalyst-tut3
   desc: Catalyst Web Framework Tutorial - Chapter 3
@@ -26,6 +28,8 @@ apps:
   src: https://github.com/Stackato-Apps/catalyst-tut3.git
   commit: master
   info: https://github.com/Stackato-Apps/catalyst-tut3#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
   
 - name: Python 3 CherryPy Demo
   id: cherrypy-py3
@@ -37,6 +41,8 @@ apps:
   src: https://github.com/Stackato-Apps/cherrypy-py3.git
   commit: master
   info: https://github.com/Stackato-Apps/cherrypy-py3#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
   
 - name: Dancer Hello World Sample
   id: dancer-hello
@@ -47,4 +53,6 @@ apps:
   src: https://github.com/Stackato-Apps/dancer-helloworld.git
   commit: master
   info: https://github.com/Stackato-Apps/dancer-helloworld#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
 

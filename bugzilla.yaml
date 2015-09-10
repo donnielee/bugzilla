@@ -61,8 +61,7 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 256
-  services:
-    postgresql: flaskbars-db
+  services:postgresql
   src: https://github.com/Stackato-Apps/flaskbars.git
   commit: stackato
   info: https://github.com/Stackato-Apps/flaskbars#README
@@ -107,8 +106,7 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 256
-  services:
-    postgresql: hello-django-db
+  services:postgresql
   src: https://github.com/Stackato-Apps/hellodjango.git
   commit: master
   info: https://github.com/Stackato-Apps/hellodjango#README
@@ -120,8 +118,7 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 512
-  services:
-    mysql: java-mysql
+  services:mysql
   src: https://github.com/Stackato-Apps/hello-java-mysql.git
   commit: master
   info: https://github.com/Stackato-Apps/hello-java-mysql#readme
@@ -133,8 +130,7 @@ apps:
   framework: spring
   license: Unknown
   mem: 512
-  services:
-    mysql: mysql-spring
+  services: mysql
   src: https://github.com/Stackato-Apps/hello-spring-mysql.git
   commit: stackato-store
   info: https://github.com/Stackato-Apps/hello-spring-mysql#readme
@@ -146,8 +142,7 @@ apps:
   framework: java_ee
   license: Unknown
   mem: 512
-  services:
-    mysql: jee-mysql
+  services:mysql
   src: https://github.com/Stackato-Apps/hello-jee-mysql.git
   commit: stackato-store
   info: https://github.com/Stackato-Apps/hello-jee-mysql#readme
@@ -159,8 +154,7 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 256
-  services:
-    filesystem: hello-scale-cache
+  services:filesystem
   env:
     BUILDPACK_URL: https://github.com/heroku/heroku-buildpack-scala.git
   src: https://github.com/Stackato-Apps/hello-scala.git
@@ -208,8 +202,7 @@ apps:
   framework: sinatra
   license: Unknown
   mem: 128
-  services:
-    rabbitmq: rabbitmq-sinatra
+  services:rabbitmq
   src: https://github.com/Stackato-Apps/sinatra-rabbitmq.git
   commit: master
   info: https://github.com/Stackato-Apps/sinatra-rabbitmq#readme

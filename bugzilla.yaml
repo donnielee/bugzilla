@@ -27,3 +27,13 @@ apps:
   info: https://github.com/Stackato-Apps/bottle-currency/tree/stackato-3.4#readme
   icon: https://get.stackato.com/store/icon/currency.png
   mem: 128
+- name: Catalyst Tutorial 2
+  id: catalyst-tut2
+  desc: Catalyst Web Framework Tutorial - Chapter 2
+  framework: perl
+  license: Unknown
+  mem: 128
+  env:
+    CATALYST_HOME: $HOME
+  src: https://github.com/Stackato-Apps/catalyst-tut2.git
+  info: https://github.com/Stackato-Apps/catalyst-tut2#readme

@@ -68,15 +68,3 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/dancer-helloworld#readme
 
-- name: Flaskbars
-  id: flaskbars
-  desc: Getting Started with Python, Flask, SQLAlchemy, JSON, JQuery, Stackato and Heroku
-  framework: buildpack
-  license: Unknown
-  mem: 256
-  services:
-    postgresql: flaskbars-db
-  src: https://github.com/Stackato-Apps/flaskbars.git
-  commit: stackato
-  info: https://github.com/Stackato-Apps/flaskbars#README
-

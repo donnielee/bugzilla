@@ -67,3 +67,35 @@ apps:
   src: https://github.com/Stackato-Apps/dancer-helloworld.git
   commit: master
   info: https://github.com/Stackato-Apps/dancer-helloworld#readme
+
+- name: Flaskbars
+  id: flaskbars
+  desc: Getting Started with Python, Flask, SQLAlchemy, JSON, JQuery, Stackato and Heroku
+  framework: buildpack
+  license: Unknown
+  mem: 256
+  services:
+    postgresql: flaskbars-db
+  src: https://github.com/Stackato-Apps/flaskbars.git
+  commit: stackato
+  info: https://github.com/Stackato-Apps/flaskbars#README
+
+- name: Hello World in Go (Buildpack)
+  id: go-hello-buildpack
+  desc: Hello World sample app in Go using Stackato buildpack framework
+  framework: buildpack
+  license: Unknown
+  mem: 256
+  src: https://github.com/Stackato-Apps/go-hello-buildpack.git
+  commit: master
+  info: https://github.com/Stackato-Apps/go-hello-buildpack#readme
+
+- name: Hello World in Go (Generic)
+  id: go-hello-generic
+  desc: Hello World sample app in Go using Stackato buildpack framework
+  framework: buildpack
+  license: Unknown
+  mem: 256
+  src: https@github.com:Stackato-Apps/go-hello.git
+  commit: master
+  info: https://github.com/Stackato-Apps/go-hello#readme

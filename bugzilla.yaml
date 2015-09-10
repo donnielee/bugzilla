@@ -55,4 +55,174 @@ apps:
   info: https://github.com/Stackato-Apps/dancer-helloworld#readme
   icon: http://static.als.hpcloud.com/hp.ico
 
+- name: Flaskbars
+  id: flaskbars
+  desc: Getting Started with Python, Flask, SQLAlchemy, JSON, JQuery, Stackato and Heroku
+  framework: buildpack
+  license: Unknown
+  mem: 256
+  services:
+    postgresql: flaskbars-db
+  src: https://github.com/Stackato-Apps/flaskbars.git
+  commit: stackato
+  info: https://github.com/Stackato-Apps/flaskbars#README
+  icon: http://static.als.hpcloud.com/hp.ico
 
+- name: Hello World in Go (Buildpack)
+  id: go-hello-buildpack
+  desc: Hello World sample app in Go using Stackato buildpack framework
+  framework: buildpack
+  license: Unknown
+  mem: 256
+  src: https://github.com/Stackato-Apps/go-hello-buildpack.git
+  commit: master
+  info: https://github.com/Stackato-Apps/go-hello-buildpack#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
+- name: Hello World in Go (Generic)
+  id: go-hello-generic
+  desc: Hello World sample app in Go using Stackato buildpack framework
+  framework: buildpack
+  license: Unknown
+  mem: 256
+  src: https@github.com:Stackato-Apps/go-hello.git
+  commit: master
+  info: https://github.com/Stackato-Apps/go-hello#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
+- name: Hello Clojure
+  id: hello-clojure
+  desc: Hello World sample app in Clojure using Stackato buildpack framework
+  framework: buildpack
+  license: Unknown
+  mem: 512
+  src: https://github.com/Stackato-Apps/hello-clojure.git
+  commit: master
+  info: https://github.com/Stackato-Apps/hello-clojure#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
+- name: Hello Django
+  id: hello-django
+  desc: Hello World sample app in Django using Stackato buildpack framework
+  framework: buildpack
+  license: Unknown
+  mem: 256
+  services:
+    postgresql: hello-django-db
+  src: https://github.com/Stackato-Apps/hellodjango.git
+  commit: master
+  info: https://github.com/Stackato-Apps/hellodjango#README
+  icon: http://static.als.hpcloud.com/hp.ico
+
+- name: Hello Java MySQL
+  id: hello-java-mysql
+  desc: Hello Java MySQL using Stackato buildpack framework
+  framework: buildpack
+  license: Unknown
+  mem: 512
+  services:
+    mysql: java-mysql
+  src: https://github.com/Stackato-Apps/hello-java-mysql.git
+  commit: master
+  info: https://github.com/Stackato-Apps/hello-java-mysql#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
+- name: Hello Spring MySQL
+  id: hello-spring-mysql
+  desc: Hello Spring MySQL
+  framework: spring
+  license: Unknown
+  mem: 512
+  services:
+    mysql: mysql-spring
+  src: https://github.com/Stackato-Apps/hello-spring-mysql.git
+  commit: stackato-store
+  info: https://github.com/Stackato-Apps/hello-spring-mysql#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+  
+- name: Hello JavaEE MySQL
+  id: hello-jee
+  desc: Hello JavaEE MySQL
+  framework: java_ee
+  license: Unknown
+  mem: 512
+  services:
+    mysql: jee-mysql
+  src: https://github.com/Stackato-Apps/hello-jee-mysql.git
+  commit: stackato-store
+  info: https://github.com/Stackato-Apps/hello-jee-mysql#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
+- name: Hello Scala
+  id: hello-scala
+  desc: Hello World sample app in Scala using Stackato buildpack framework
+  framework: buildpack
+  license: Unknown
+  mem: 256
+  services:
+    filesystem: hello-scale-cache
+  env:
+    BUILDPACK_URL: https://github.com/heroku/heroku-buildpack-scala.git
+  src: https://github.com/Stackato-Apps/hello-scala.git
+  commit: master
+  info: https://github.com/Stackato-Apps/hello-scala#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
+- name: Mason Hello World Sample
+  id: mason-hello
+  desc: Mason Hello World Sample
+  framework: perl
+  license: Unknown
+  mem: 128
+  src: https://github.com/Stackato-Apps/mason-helloworld.git
+  commit: master
+  info: https://github.com/Stackato-Apps/mason-helloworld#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+
+- name: Mojolicious Hello World Sample
+  id: mojo-hello
+  desc: Mojolicious Hello World Sample
+  framework: perl
+  license: Unknown
+  mem: 128
+  src: https://github.com/Stackato-Apps/mojo-helloworld.git
+  commit: master
+  info: https://github.com/Stackato-Apps/mojo-helloworld#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+  
+- name: RailwayJS
+  id: railwayjs
+  desc: Railway is the Node.JS MVC framework based on ExpressJS, fully ExpressJS-compatible. It allows you to build web applications in a similar manner as in Ruby On Rails.
+  runtime: node
+  framework: node
+  license: Unknown
+  mem: 64 
+  src: https://github.com/Stackato-Apps/railwayjs.git
+  commit: master
+  info: https://github.com/Stackato-Apps/railwayjs#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+  
+- name: Sinatra RabbitMQ demo application
+  id: sinatra-rabbitmq
+  desc: Sinatra RabbitMQ demo application
+  framework: sinatra
+  license: Unknown
+  mem: 128
+  services:
+    rabbitmq: rabbitmq-sinatra
+  src: https://github.com/Stackato-Apps/sinatra-rabbitmq.git
+  commit: master
+  info: https://github.com/Stackato-Apps/sinatra-rabbitmq#readme
+  icon: http://static.als.hpcloud.com/hp.ico
+  
+- name: WSGI Hello World Sample
+  id: wsgi-hello
+  desc: A minimal Python WSGI application
+  runtime: python27
+  framework: python
+  license: Unknown
+  mem: 128
+  src: https://github.com/Stackato-Apps/wsgi-helloworld.git
+  commit: master
+  info: https://github.com/Stackato-Apps/wsgi-helloworld#readme
+  icon: http://static.als.hpcloud.com/hp.ico

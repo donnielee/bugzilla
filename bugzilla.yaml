@@ -37,15 +37,3 @@ apps:
     CATALYST_HOME: $HOME
   src: https://github.com/Stackato-Apps/catalyst-tut2.git
   info: https://github.com/Stackato-Apps/catalyst-tut2#readme
-- name: Catalyst Tutorial 3
-  id: catalyst-tut3
-  desc: Catalyst Web Framework Tutorial - Chapter 3
-  framework: perl
-  license: Unknown
-  mem: 128
-  env:
-    CATALYST_HOME: $HOME
-  src: https://github.com/Stackato-Apps/catalyst-tut3.git
-  commit: master
-  info: https://github.com/Stackato-Apps/catalyst-tut3#readme
- 
